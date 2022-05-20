@@ -13,6 +13,10 @@ import VueQuillEditor from 'vue-quill-editor'
 import 'quill/dist/quill.core.css'
 import 'quill/dist/quill.snow.css'
 import 'quill/dist/quill.bubble.css'
+// //引入echarts
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
 //导入axios
 import axios from 'axios'
 // 配置请求的跟路径
